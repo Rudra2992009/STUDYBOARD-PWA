@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI-powered study assistant for 10th/12th board exam preparation">
+    <meta name="theme-color" content="#4CAF50">
+    <title>STUDYBOARD - AI Study Assistant</title>
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    
+    <!-- iOS Support -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="STUDYBOARD">
+    <link rel="apple-touch-icon" href="assets/icon-192x192.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/icon-192x192.png">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <img src="assets/icon-192x192.png" alt="STUDYBOARD Logo" class="logo-img" onerror="this.style.display='none'">
+                <h1>STUDYBOARD</h1>
+            </div>
+            <div class="exam-selector">
+                <label for="exam-class">Select Class:</label>
+                <select id="exam-class">
+                    <option value="10">Class 10th</option>
+                    <option value="12">Class 12th</option>
+                </select>
+            </div>
+            <div class="status-indicator">
+                <span id="connection-status" class="status-dot online"></span>
+                <span id="status-text">Online</span>
+            </div>
+        </header>
+
+        <!-- Main Chat Area -->
+        <main class="chat-container">
+            <div id="chat-messages" class="chat-messages">
+                <div class="welcome-message">
+                    <h2>Welcome to STUDYBOARD! 📚</h2>
+                    <p>Your AI-powered study companion for board exam preparation.</p>
+                    <ul class="features-list">
+                        <li>💬 Chat with AI tutor powered by Llama</li>
+                        <li>🖼️ Get visual explanations with Stable Diffusion</li>
+                        <li>📖 Ask questions about any subject</li>
+                        <li>🎯 Get practice problems and solutions</li>
+                    </ul>
+                    <p class="tip">Type your question below to get started!</p>
+                </div>
+            </div>
+
+            <!-- Loading Indicator -->
+            <div id="loading" class="loading hidden">
+                <div class="spinner"></div>
+                <p>Generating response...</p>
+            </div>
+        </main>
+
+        <!-- Input Area -->
+        <footer class="input-area">
+            <div class="input-controls">
+                <label class="checkbox-container">
+                    <input type="checkbox" id="generate-image" checked>
+                    <span class="checkmark"></span>
+                    Generate Image
+                </label>
+            </div>
+            <div class="input-wrapper">
+                <textarea 
+                    id="user-input" 
+                    placeholder="Ask a question about your studies..." 
+                    rows="1"
+                    maxlength="500"
+                ></textarea>
+                <button id="send-button" class="send-button" aria-label="Send message">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="character-count">
+                <span id="char-count">0</span>/500
+            </div>
+        </footer>
+    </div>
+
+    <!-- Install Prompt -->
+    <div id="install-prompt" class="install-prompt hidden">
+        <div class="install-content">
+            <p>Install STUDYBOARD for a better experience!</p>
+            <button id="install-button" class="install-button">Install</button>
+            <button id="dismiss-install" class="dismiss-button">Not now</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+name: Build C++ Bridge
+
+on:
+  push:
+    paths:
+      - 'cpp_bridge/**'
+      - '.github/workflows/build-cpp.yml'
+  pull_request:
+    paths:
+      - 'cpp_bridge/**'
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    
+    runs-on: ${{ matrix.os }}
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Install dependencies (Ubuntu)
+      if: matrix.os == 'ubuntu-latest'
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y cmake build-essential python3-dev
+    
+    - name: Install dependencies (macOS)
+      if: matrix.os == 'macos-latest'
+      run: |
+        brew install cmake python@3.10
+    
+    - name: Setup MSVC (Windows)
+      if: matrix.os == 'windows-latest'
+      uses: microsoft/setup-msbuild@v1.1
+    
+    - name: Build C++ Bridge
+      run: |
+        cd cpp_bridge
+        mkdir -p build
+        cd build
+        cmake ..
+        cmake --build . --config Release
+    
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: cpp-bridge-${{ matrix.os }}
+        path: |
+          cpp_bridge/build/*studyboard_bridge*
+          cpp_bridge/build/Release/*studyboard_bridge*
