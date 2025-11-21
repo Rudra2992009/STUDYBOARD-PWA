@@ -1,58 +1,292 @@
-MIT License
+STUDYBOARD PWA - SOFTWARE LICENSE AGREEMENT
 
 Copyright (c) 2025 Rudra Pandey
+All Rights Reserved
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+================================================================================
+IMPORTANT DEVELOPER NOTICE
+================================================================================
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This software was developed by Rudra Pandey, a CLASS 9 STUDENT, as an 
+educational project to help students prepare for board examinations.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLied, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+The developer is a MINOR and this is a LEARNING PROJECT. The software is 
+provided "AS-IS" without any warranties, guarantees, or liability.
 
----
+================================================================================
+LICENSE TERMS AND CONDITIONS
+================================================================================
 
-ADDITIONAL TERMS FOR AI MODELS:
+1. GRANT OF LICENSE
 
-1. LLAMA MODEL USAGE:
-   - Subject to Meta's Llama 2 Community License
-   - Requires acceptance of terms at https://ai.meta.com/llama/
-   - Commercial use restrictions may apply
+   Permission is hereby granted, free of charge, to any person obtaining a 
+   copy of this software and associated documentation files (the "Software"), 
+   to use, copy, modify, merge, and distribute the Software for EDUCATIONAL 
+   AND NON-COMMERCIAL PURPOSES ONLY, subject to the following conditions:
 
-2. STABLE DIFFUSION USAGE:
-   - Subject to CreativeML Open RAIL-M License
-   - See: https://huggingface.co/spaces/CompVis/stable-diffusion-license
+2. EDUCATIONAL USE ONLY
 
-3. EDUCATIONAL USE REQUIREMENT:
-   - This software is intended for EDUCATIONAL PURPOSES ONLY
-   - Prohibited uses include but are not limited to:
-     * Creating deepfakes or manipulated media
-     * Generating inappropriate content
-     * Any illegal or harmful activities
-     * Academic dishonesty
+   This software is STRICTLY intended for:
+   ✓ Educational learning and teaching
+   ✓ Board exam preparation (10th and 12th grades)
+   ✓ Understanding AI/ML concepts
+   ✓ Personal study and research
+   ✓ Academic projects (with proper attribution)
 
-4. CONTENT RESPONSIBILITY:
-   - Users are responsible for all content generated
-   - Developers are not liable for misuse
-   - Report violations to: rudra160113.work@gmail.com
+3. PROHIBITED USES - STRICTLY FORBIDDEN
 
-5. DATA PRIVACY:
-   - All processing happens locally
-   - No user data is transmitted externally
-   - No tracking or analytics by default
+   The following uses are EXPLICITLY PROHIBITED and ILLEGAL:
 
-6. ATTRIBUTION:
-   - When redistributing, maintain original credits
-   - Acknowledge Hugging Face, Meta AI, and Stability AI
+   ✗ FRAUD: Using this software for any fraudulent activities
+   ✗ ILLEGAL ACTIVITIES: Any use that violates local, state, national, or 
+     international laws
+   ✗ SCAMS: Creating scam websites, phishing, or deceptive applications
+   ✗ IDENTITY THEFT: Impersonating others or stealing personal information
+   ✗ DEEPFAKES: Creating fake images, videos, or audio to deceive or harm
+   ✗ HARASSMENT: Using generated content to harass, bully, or threaten others
+   ✗ INAPPROPRIATE CONTENT: Generating explicit, violent, or harmful content
+   ✗ MINORS EXPLOITATION: Creating any content involving minors inappropriately
+   ✗ COPYRIGHT INFRINGEMENT: Violating intellectual property rights
+   ✗ ACADEMIC DISHONESTY: Cheating on exams, plagiarism, or falsifying work
+   ✗ MISINFORMATION: Deliberately spreading false information
+   ✗ UNAUTHORIZED COMMERCIAL USE: Selling or profiting without permission
+   ✗ MALWARE/HACKING: Integrating malicious code or using for cyberattacks
 
-BY USING THIS SOFTWARE, YOU AGREE TO THESE TERMS.
+4. LEGAL CONSEQUENCES OF MISUSE
+
+   ANY PERSON OR ENTITY THAT USES THIS SOFTWARE FOR PROHIBITED PURPOSES:
+
+   a) VIOLATES THIS LICENSE and all rights to use the software are immediately 
+      terminated
+   b) May face CRIMINAL PROSECUTION under applicable laws including but not 
+      limited to:
+      - Information Technology Act, 2000 (India)
+      - Indian Penal Code (IPC)
+      - Computer Fraud and Abuse Act (USA)
+      - General Data Protection Regulation (GDPR - EU)
+      - Other international cybercrime laws
+   c) May be subject to CIVIL LIABILITY for damages
+   d) Will be REPORTED to appropriate law enforcement authorities
+
+5. NO WARRANTY OR GUARANTEE
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+   IMPLIED, INCLUDING BUT NOT LIMITED TO:
+
+   • No warranty of MERCHANTABILITY
+   • No warranty of FITNESS FOR A PARTICULAR PURPOSE
+   • No warranty of ACCURACY of generated content
+   • No warranty of RELIABILITY or AVAILABILITY
+   • No warranty that the software will be ERROR-FREE
+   • No warranty regarding SECURITY
+
+   THE DEVELOPER, BEING A CLASS 9 STUDENT, PROVIDES THIS SOFTWARE AS A 
+   LEARNING PROJECT AND CANNOT GUARANTEE PROFESSIONAL-GRADE QUALITY, SECURITY, 
+   OR PERFORMANCE.
+
+6. DISCLAIMER OF LIABILITY
+
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW:
+
+   a) THE DEVELOPER (Rudra Pandey) SHALL NOT BE LIABLE FOR:
+      - Any DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, or 
+        EXEMPLARY DAMAGES
+      - Loss of PROFITS, DATA, or USE
+      - Any DAMAGES arising from MISUSE of the software
+      - Any DAMAGES arising from SOFTWARE ERRORS or BUGS
+      - Any LIABILITY for content generated by users
+      - Any LEGAL CONSEQUENCES arising from users' actions
+
+   b) THE DEVELOPER, BEING A MINOR (Class 9 student), cannot be held 
+      responsible for:
+      - How others use this software
+      - Any modifications made by third parties
+      - Content generated by AI models
+      - Any illegal activities performed using this software
+
+   c) USERS ASSUME ALL RISK and are SOLELY RESPONSIBLE for:
+      - Their use of the software
+      - All content they generate
+      - Compliance with applicable laws
+      - Any consequences of their actions
+
+7. AGE AND RESPONSIBILITY ACKNOWLEDGMENT
+
+   BY USING THIS SOFTWARE, YOU ACKNOWLEDGE AND AGREE THAT:
+
+   a) The developer is a CLASS 9 STUDENT (approximately 14-15 years old)
+   b) This is an EDUCATIONAL and EXPERIMENTAL project
+   c) You will NOT hold a minor liable for any issues
+   d) You accept FULL RESPONSIBILITY for your use of this software
+   e) You will use this software ETHICALLY and LEGALLY
+
+8. THIRD-PARTY AI MODELS LICENSE
+
+   This software integrates third-party AI models subject to their own licenses:
+
+   a) LLAMA MODELS (Meta AI):
+      - Subject to Meta's Llama 2 Community License Agreement
+      - Must accept terms at: https://ai.meta.com/llama/
+      - Commercial use restrictions apply
+      - Refer to: https://github.com/facebookresearch/llama
+
+   b) STABLE DIFFUSION (Stability AI):
+      - Subject to CreativeML Open RAIL-M License
+      - Cannot be used to harm minors or for illegal purposes
+      - See: https://huggingface.co/spaces/CompVis/stable-diffusion-license
+      - Refer to: https://github.com/CompVis/stable-diffusion
+
+   c) HUGGING FACE TRANSFORMERS:
+      - Subject to Apache License 2.0
+      - See: https://github.com/huggingface/transformers
+
+   BY USING THIS SOFTWARE, YOU AGREE TO COMPLY WITH ALL THIRD-PARTY LICENSES.
+
+9. CONTENT FILTERING AND SAFETY
+
+   This software attempts to filter inappropriate content but:
+
+   a) NO FILTERING SYSTEM IS 100% EFFECTIVE
+   b) Users must NOT attempt to bypass safety filters
+   c) Any attempt to generate prohibited content VIOLATES this license
+   d) The developer is NOT LIABLE for content that bypasses filters
+
+10. DATA PRIVACY
+
+    a) All AI processing happens LOCALLY on your device
+    b) No user data is transmitted to external servers (except for model 
+       downloads from Hugging Face)
+    c) No analytics or tracking is enabled by default
+    d) Users are responsible for protecting their own data
+
+11. ATTRIBUTION REQUIREMENTS
+
+    If you redistribute or modify this software, you MUST:
+
+    a) Include this LICENSE file in full
+    b) Credit the original developer: Rudra Pandey
+    c) Acknowledge it as a student educational project
+    d) Link to: https://github.com/Rudra2992009/STUDYBOARD-PWA
+    e) Acknowledge Hugging Face, Meta AI, and Stability AI
+
+12. MODIFICATIONS AND FORKS
+
+    If you create a modified version:
+
+    a) You MUST clearly indicate changes made
+    b) You MUST retain all original disclaimers
+    c) You CANNOT remove the student developer notice
+    d) You MUST add your own disclaimers for your modifications
+    e) You assume ALL LIABILITY for your modified version
+
+13. COMMERCIAL USE RESTRICTIONS
+
+    COMMERCIAL USE IS PROHIBITED WITHOUT EXPLICIT WRITTEN PERMISSION.
+
+    To request commercial licensing, contact: rudra160113.work@gmail.com
+
+14. TERMINATION
+
+    This license automatically TERMINATES if you:
+
+    a) Violate ANY term of this license
+    b) Use the software for prohibited purposes
+    c) Fail to comply with third-party licenses
+    d) Remove or modify license notices
+
+    Upon termination, you must IMMEDIATELY:
+    - Stop using the software
+    - Delete all copies
+    - Cease distribution
+
+15. REPORTING VIOLATIONS
+
+    If you become aware of misuse of this software:
+
+    Report to: rudra160113.work@gmail.com
+
+    Include:
+    - Description of the violation
+    - Evidence (screenshots, URLs, etc.)
+    - Your contact information (optional)
+
+    Serious violations will be reported to:
+    - Local law enforcement
+    - Cybercrime authorities
+    - Platform providers (GitHub, hosting services)
+
+16. GOVERNING LAW
+
+    This license shall be governed by the laws of:
+    - India (primary jurisdiction)
+    - Jharkhand State laws
+    - Information Technology Act, 2000
+    - Indian Penal Code
+
+    Disputes shall be subject to the exclusive jurisdiction of courts in 
+    Giridih, Jharkhand, India.
+
+17. SEVERABILITY
+
+    If any provision of this license is found to be unenforceable, the 
+    remaining provisions shall remain in full force and effect.
+
+18. ENTIRE AGREEMENT
+
+    This license constitutes the entire agreement between the developer and 
+    users regarding the software.
+
+19. UPDATES TO LICENSE
+
+    The developer reserves the right to update this license. Continued use 
+    after updates constitutes acceptance of new terms.
+
+20. CONTACT INFORMATION
+
+    Developer: Rudra Pandey (Class 9 Student)
+    Email: rudra160113.work@gmail.com
+    GitHub: https://github.com/Rudra2992009
+    Repository: https://github.com/Rudra2992009/STUDYBOARD-PWA
+
+================================================================================
+FINAL DECLARATION
+================================================================================
+
+BY DOWNLOADING, INSTALLING, COPYING, OR USING THIS SOFTWARE, YOU:
+
+1. ACKNOWLEDGE that you have read and understood this license
+2. AGREE to all terms and conditions stated herein
+3. AGREE to use the software only for educational purposes
+4. AGREE NOT to use the software for any illegal, fraudulent, or harmful 
+   activities
+5. ACKNOWLEDGE that the developer is a Class 9 student providing this as a 
+   learning project
+6. ACCEPT that there is NO WARRANTY or GUARANTEE of any kind
+7. ACCEPT FULL RESPONSIBILITY for your use of the software
+8. AGREE that the developer has NO LIABILITY for your actions or any damages
+9. AGREE to comply with all applicable laws and third-party licenses
+10. AGREE that violation of these terms will result in immediate termination 
+    of your right to use this software and may result in legal action
+
+IF YOU DO NOT AGREE TO THESE TERMS, YOU ARE NOT AUTHORIZED TO USE THIS 
+SOFTWARE AND MUST DELETE ALL COPIES IMMEDIATELY.
+
+================================================================================
+
+⚠️  WARNING: MISUSE OF THIS SOFTWARE FOR ILLEGAL OR HARMFUL PURPOSES IS 
+    STRICTLY PROHIBITED AND WILL BE PROSECUTED TO THE FULLEST EXTENT OF LAW.
+
+📚  This software is meant to HELP STUDENTS LEARN, not to enable harmful 
+    activities. Use it responsibly and ethically.
+
+🎓  Remember: The developer is a fellow student trying to help others. Respect 
+    their work and use it for good.
+
+================================================================================
+
+Last Updated: November 21, 2025
+Version: 1.0.0
+
+© 2025 Rudra Pandey. All Rights Reserved.
+
+================================================================================
