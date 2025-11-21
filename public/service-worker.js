@@ -4,10 +4,10 @@ const urlsToCache = [
   '/index.html',
   '/styles.css',
   '/app.js',
-  '/manifest.json'
+  '/manifest.json',
+  '/about.html'
 ];
 
-// Install Service Worker
 self.addEventListener('install', (event) => {
   console.log('[ServiceWorker] Installing...');
   event.waitUntil(
@@ -20,7 +20,6 @@ self.addEventListener('install', (event) => {
   self.skipWaiting();
 });
 
-// Activate Service Worker
 self.addEventListener('activate', (event) => {
   console.log('[ServiceWorker] Activating...');
   event.waitUntil(
@@ -38,12 +37,10 @@ self.addEventListener('activate', (event) => {
   return self.clients.claim();
 });
 
-// Fetch Event - Network First, fallback to Cache
 self.addEventListener('fetch', (event) => {
   event.respondWith(
     fetch(event.request)
       .then((response) => {
-        // Clone response for caching
         const responseClone = response.clone();
         caches.open(CACHE_NAME).then((cache) => {
           cache.put(event.request, responseClone);
@@ -58,7 +55,6 @@ self.addEventListener('fetch', (event) => {
   );
 });
 
-// Background Sync for offline requests
 self.addEventListener('sync', (event) => {
   if (event.tag === 'sync-messages') {
     event.waitUntil(syncMessages());
@@ -67,5 +63,4 @@ self.addEventListener('sync', (event) => {
 
 async function syncMessages() {
   console.log('[ServiceWorker] Syncing offline messages...');
-  // Implementation for syncing cached requests when back online
 }
