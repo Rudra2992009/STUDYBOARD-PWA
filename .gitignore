@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.Python
+venv/
+env/
+ENV/
+.venv/
+
+# Models and Cache
+models/
+*.bin
+*.safetensors
+*.ckpt
+*.pth
+transformers_cache/
+huggingface/
+.cache/
+
+# Generated Content
+generated_images/
+*.png
+*.jpg
+*.jpeg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# C++ Build
+cpp_bridge/build/
+cpp_bridge/cmake-build-*/
+*.o
+*.a
+
+# Node (if using any build tools)
+node_modules/
+package-lock.json
+
+# Misc
+.pytest_cache/
+.coverage
+htmlcov/
